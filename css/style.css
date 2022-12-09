@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    background-image: url(/restoran/img/hero\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.container {
+    /* width: 1200px; */
+    margin: 0 166px;
+}
+.head_line {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+.head_logo img {
+    /* width: 150px; */
+}
+.menu_site {
+    margin-left: 250px;
+}
+.menu_site_item {
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-right: 25px;
+    transition: color 0.3sm linear;
+}
+.menu_site_item:hover {
+    color: rgb(207, 34, 34);
+}
+.basket_logo {   
+    color: #fff;
+    border-right: 1px solid #fff;
+    height: 51px;
+    position: relative;
+}
+.basket_img {
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    width: 20px;
+}
+.head_phone {
+    
+}
+.phone_number {
+    
+}
+.phone_number a {
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    transition: color 0.3sm linear;
+}
+.phone_number a:hover {
+    color: rgb(207, 34, 34);
+}
+.phone_text {
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.head_button {
+    width: 157px;
+    height: 47px;
+    background-color: #FF7400;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    transition: backgroundcolor 0.3sm linear;
+    padding: 14px 18px;
+}
+.head_button a {
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 14px;
+    right: 17px;
+}
+.head_button:hover {
+    background-color: #af4f00;
+}
+.head_down {
+    position: relative;
+    /* padding-left: 0; */
+    padding-top: 200px;
+}
+.head_title {
+    position:absolute;
+    left: 0;
+    text-align: center;
+    margin-left: 0;
+}
+.head_title h2 {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+.head_title h3 {
+    font-family: 'Tinos', serif;
+    color: #D67E35;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 92px;
+}
+.head_title h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+}
+.head_title h4::after {
+    position: absolute;
+    content: "";
+    top: 11px;
+    right: 88px;
+    width: 61px;
+    height: 2px;
+    background-color: #fff;
+}
+.head_title h4::before {
+    position: absolute;
+    content: "";
+    top: 11px;
+    left: 88px;
+    width: 61px;
+    height: 2px;
+    background-color: #fff;
+}
+.head_down_button {
+    /* display: inline; */
+    width: 137px;
+    height: 47px;
+    /* position: relative; */
+    background-color: #FF7400;
+    /* text-align: center; */
+    padding: 14px 28px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    transition: backgroundcolor 0.3sm linear;
+}
+.head_down_button a {
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;  
+}
+.head_down_button:hover {
+    background-color: #af4f00;
+}
+.cards {
+}
+.cards_inner {
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    margin-bottom: 166px;
+}
+.card {
+    width: 349px;
+    background-color: #fff;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    padding: 35px 10px 10px 10px;
+    margin-right: 31px;
+}
+.card_icon {
+    text-align: center;
+    /* padding-top: 35px; */
+}
+.card_text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.card_text span {
+    color: #BC9060;
+}
+.card_desc {
+    text-align: center;
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #656363;
+}
+.history {
+}
+.history_inner {
+    display: flex;
+    margin-bottom: 210px;
+}
+.history_info {
+}
+.history_title {
+    width: 444px;
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+.history_title span {
+    color: #D67E34;
+}
+.history_desc {
+    width: 444px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #656363;
+    margin-bottom: 39px;
+    text-align: center;
+}
+.history_numbers {
+    width: 444px;
+    display: flex;
+    justify-content: space-around;
+}
+.history_item {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    color: #BC9060;
+    text-align: center;
+}
+.history_item span {
+    font-size: 20px;
+    line-height: 27px;
+    color: #000;
+    display: block;
+}
+.history_img {
+    position: relative;
+}
+.history_img1 {
+    position: absolute;
+    z-index: 0;
+    top: 10px;
+    left: 50px;
+}
+.history_img2 {
+    position: absolute;
+    z-index: 999;
+    top: 120px;
+    left: 310px;
+}
+.history_img3 {
+    position: absolute;
+    z-index: 1;
+    top: -14px;
+    left: 187px;
+}
+.black_block {
+    background-image: url(/restoran/img/black_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black_block_inner {
+    padding: 80px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.black_title {
+    font-family: Tinos;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #D67E34;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.black_text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #fff;
+    text-align: center;
+}
+
+.black_block_btn {
+    width: 157px;
+    height: 47px;
+    background-color: #FF7400;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    transition: backgroundcolor 0.3sm linear;
+    padding: 14px 18px;
+}
+.black_block_btn a {
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;;
+    text-transform: uppercase;
+    position: absolute;
+    top: 14px;
+    right: 17px;
+}
+.dishes {
+}
+.dishes_title {
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 140px;
+}
+.dishes_title span {
+    color: #D67E34;
+}
+.dishes_inner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.dishes_img {
+    margin-right: 20px;
+}
+.burger_items {
+    
+}
+.burger {
+    display: flex;
+    margin-bottom: 22px;
+    align-items: center;
+}
+.burger_img {
+    margin-right: 20px;
+}
+.burger_text {
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+}
+.menu {
+    background-image: url(/restoran/img/menu_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 240px;
+}
+.menu_title {
+    padding-top: 100px;
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 250px;
+}
+.menu_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 226px; */
+}
+.menu_item {
+    background-color: #fff;
+    width: 33%;
+    margin-right: 30px;
+    position: relative;
+    text-align: center;
+    padding: 80px 60px 30px 60px;
+}
+.menu_reccomend {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 124px;
+    height: 36px;
+    background-color: #D67E34;
+    text-align: center;
+    font-size: 13px;
+    padding: 9px;
+}
+.menu_item_images {
+    position: relative;
+    margin-bottom: 13px;
+}
+.menu_price_img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.menu_price {
+    font-family: Cookie;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    position: absolute;
+    bottom: 36px;
+    right: 30px;
+}
+.menu_item_title {
+    margin-bottom: 17px;
+    font-family: Tinos;
+    font-size: 26px;
+}
+.menu_item_desc {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.menu_item_btn {
+    width: 220px;
+    height: 50px;
+    background-color: #D67E34;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 14px 67px;
+}
+.comment {
+    background-color: #E5E5E5;
+    padding: 100px 0;
+}
+.comment_text {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.comment_img {
+    text-align: center;
+    margin-bottom: 17px;
+}
+.comment_img img{
+    border-radius: 50px;
+}
+.comment_status {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 9px;
+}
+.comment_name {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.gallery {
+    padding: 100px 0;
+}
+.gallery_title {
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.gallery_title span {
+    color: #D67E34;
+}
+.gallery_img {
+    display: flex;
+    justify-content: center;
+}
+.gallery_left {
+    margin-right: 20px;
+}
+.gallery_up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.gallery_down {
+    display: flex;
+    justify-content: space-between;
+}
+.cooks {
+    margin-bottom: 100px;
+}
+.cooks_title {
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.cooks_title span {
+    color: #D67E34;
+}
+.cooks_img {
+    display: flex;
+    justify-content: center;
+}
+.cooks_img img {
+    margin-right: 20px;
+}
+.cooks_img img:last-child {
+    margin-right: 0;
+}
+.footer {
+    background-color: rgb(40, 40, 40);
+    padding: 30px 0;
+}
+.footer_text {
+    text-align: center;
+    color:#E5E5E5;
+}
