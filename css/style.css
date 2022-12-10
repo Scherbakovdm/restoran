@@ -5,7 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 .header {
-    background-image: url(/restoran/img/hero\ image.jpg);
+    background-image: url(/img/hero\ image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
@@ -292,7 +292,7 @@
     left: 187px;
 }
 .black_block {
-    background-image: url(/restoran/img/black_bg.jpg);
+    background-image: url(/img/black_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -378,7 +378,7 @@
     font-weight: 400;
 }
 .menu {
-    background-image: url(/restoran/img/menu_bg.jpg);
+    background-image: url(/img/menu_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 240px;
