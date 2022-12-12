@@ -1,0 +1,93 @@
+@media (max-width: 1420px) {
+    .dishes_img {
+        display: none;
+    }
+}
+@media (max-width: 1350px) {
+    .head_title h4::after, 
+    .head_title h4::before {
+        content: none;
+    }
+    .menu_site,
+    .basket_logo,
+    .head_phone,
+    .head_button,
+    .history_img2 {
+        display: none;
+    }
+    .phone_menu,
+    .black_block_inner,
+    .cards_inner {
+        display: block;
+    }
+    .head_down {
+        padding-top: 90px;
+    }
+    .head_title {
+        position: static;
+    }
+    .card {
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .black_block_btn {
+        margin: 20px auto 0;
+    }
+}
+@media (max-width: 1150px) {
+    .history_img {
+        display: none;
+    }
+    .history_title,
+    .history_desc,
+    .history_numbers {
+        width: auto;
+    }
+    .menu_items {
+        display: block;
+        margin: 0 auto;
+        /* padding: 0 auto;
+        text-align: center; */
+    }
+    .menu_item,
+    .menu_item:last-child {
+        margin: 0 auto 20px;
+        /* width: 300px; */
+    }
+    .gallery_img {
+        display: block;
+    }
+    .gallery_left {
+        margin-right: 0;
+    }
+    /* .gallery_up_left {
+        margin: 0 auto;
+    } */
+    .gallery_up_left img,
+    .gallery_down_right img {
+        /* display:flex; */
+        margin: 0 auto;
+    }
+    .gallery_down_left,
+    .gallery_up_right {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .gallery_down_left img,
+    .gallery_up_right img {
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+    .cooks_img {
+        display: block;
+        /* padding: 0 auto; */
+        /* justify-content: center; */
+    }
+    .cooks_img img,
+    .cooks_img img:last-child {
+        display: block;
+        /* margin-right: 0; */
+        margin: 0 auto 20px;
+    }
+}
